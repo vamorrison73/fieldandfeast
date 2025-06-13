@@ -1,0 +1,30 @@
+Code semantic, validated HTML5
+Demonstrate CSS you've learned so far (with emphasis on this module)
+Grid
+Media Queries
+Mobile First
+Responsive Images
+Publish files to the web using GitHub Desktop > GitHub > GitHub Pages
+
+Breakpoints based on the mockups
+Global style- small
+Medium- min-width: 600px
+Large- min-width: 900px
+XL- min-width: 1200px
+
+
+
+
+
+
+
+/* dont forget pseudo for links */
+a:link, a:visited {
+  color: (internal value);
+  text-decoration: underline;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
