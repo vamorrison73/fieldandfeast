@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <!-- insert author????????????? -->
+         <meta name="author" content="Victoria Morrison">
          <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Field & Feast</title>
@@ -11,16 +12,17 @@
     
     <body>
         <header>
-            <img src="images/fieldandfeast-logo.png" alt="">
+            <img src="images/fieldandfeast-logo.png" alt="" height="600" width="400">
             <h1>Field & Feast</h1>
-                <p>Harvested with Care, Served with Elegance</p>
+            <p>Harvested with Care, Served with Elegance</p>
 
             <nav>
-                
+                <ul>
                     <!-- use arias?????????????? -->
-                    <a href="#about" aria-label="about us">About Us</a>
-                    <a href="#offerings">Offerings</a>
-                    <a href="#gallery">Gallery</a>
+                    <li><a href="#about" aria-label="about us">About Us</a></li>
+                    <li><a href="#offerings">Offerings</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                </ul>
                 
             </nav>
 
@@ -33,16 +35,16 @@
             </section>
             <section id="offerings">
                 <h2>Our Offerings</h2>
-                <div id="offerings-grid">
-                    <div class="green-box">
+                <div>
+                    <div>
                         <h3>Artisan Provisions</h3>
                             <p>Hand-selected, seasonal ingredients sourced from our estate farm and trusted local growers. Each item is chosen for its freshness, flavor, and integrity.</p>
                     </div>
-                    <div class="green-box">
+                    <div>
                         <h3>Exclusive Dining Experiences</h3>
                             <p>Join us for intimate chef-led tastings and farm-to-table feasts, where carefully crafted menus highlight the best of the season.</p>
                     </div>
-                    <div class="green-box">
+                    <div>
                         <h3>The Field & Feast Monthly Basket</h3>
                             <p>Experience a curated selection of premium seasonal ingredients delivered to your doorstep each month.</p>
                             <ul>
@@ -50,6 +52,7 @@
                                 <li>Artisan-Crafted Goods: Specialty cheeses, house-made preserves, and small-batch baked goods.</li>
                                 <li>Exclusive Recipes & Pairings: Thoughtfully designed by our chefs to inspire culinary creativity.</li>
                             </ul>
+                            <p>Elevate your home dining with the finest farm-to-table offerings, elegantly packaged and delivered with care.</p>
                     </div>
                 </div>
             </section>
@@ -60,25 +63,39 @@
                         <figure>
                             <img 
                                 srcset="images/tomatoes-200w.jpg 200w, images/tomatoes-300w.jpg 300w, images/tomatoes-600w.jpg 600w"
-                                sizes=""
+                                sizes="(min-width: 1200px) 300px, (min-width: 900px) 200px, (min-width: 600px) 10vw, 300px"
                                 src="images/tomatoes-200w.jpg"
-                                 alt="fresh red tomatoes growing on a green vine">
+                                alt="fresh red tomatoes growing on a green vine">
                             <figcaption>Heirloom tomatoes at peak ripeness.</figcaption>
                         </figure>
                         <figure>
-                            <img src="images/olive-oil-200w.jpg" alt="oil being poured over wooden bowl full of green olives">
+                            <img
+                            srcset="images/olive-oil-200w.jpg 200w, images/olive-oil-300w.jpg 300w, images/olive-oil-600w.jpg 600w"
+                            sizes="(min-width: 1200px) 300px, (min-width: 900px) 200px, (min-width: 600px) 10vw, 300px" 
+                            src="images/olive-oil-200w.jpg" 
+                            alt="oil being poured over wooden bowl full of green olives">
                             <figcaption>Drizzling golden olive oil over fresh harvest.</figcaption>
                         </figure>
                         <figure>
-                            <img src="images/table-setting-200w.jpg" alt="unlit candle on an nighttime elegant table setting including leaves and bread">
+                            <img
+                            srcset="images/table-setting-200w.jpg 200w, images/table-setting-300w.jpg 300w, images/table-setting-600w.jpg 600w"
+                            sizes="(min-width: 1200px) 300px, (min-width: 900px) 200px, (min-width: 600px) 10vw, 300px" 
+                            src="images/table-setting-200w.jpg" 
+                            alt="unlit candle on an nighttime elegant table setting including leaves and bread">
                             <figcaption>Elegant tablescape under the evening sky.</figcaption>
                         </figure>
                         <figure>
-                            <img src="images/chef-plating-200w.jpg" alt="man in striped apron carefully arranging bread on plates">
+                            <img 
+                            srcset="images/chef-plating-200w.jpg 200w, images/chef-plating-300w.jpg 300w, images/chef-plating-600w.jpg 600w"
+                            sizes="(min-width: 1200px) 300px, (min-width: 900px) 200px, (min-width: 600px) 10vw, 300px"
+                            src="images/chef-plating-200w.jpg" alt="man in striped apron carefully arranging bread on plates">
                             <figcaption>Artful plating with seasonal ingredients.</figcaption>
                         </figure>
                         <figure>
-                            <img src="images/basket-200w.jpg" alt="large baskets of various fruits">
+                            <img 
+                            srcset="images/basket-200w.jpg 200w, images/basket-300w.jpg 300w, images/basket-600w.jpg 600w"
+                            sizes="(min-width: 1200px) 300px, (min-width: 900px) 200px, (min-width: 600px) 10vw, 300px"
+                            src="images/basket-200w.jpg" alt="large baskets of various fruits">
                             <figcaption>Our monthly basket, curated with care.</figcaption>
                         </figure>
                     </div>
